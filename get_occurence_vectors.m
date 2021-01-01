@@ -52,3 +52,4 @@ for i = 1:variants_num
     first_empty_in_row(end+1) = max(non_emptis);
 end
 idx_to_delete = max(first_empty_in_row);
+x_pos = x_pos(:, 1:idx_to_delete);
